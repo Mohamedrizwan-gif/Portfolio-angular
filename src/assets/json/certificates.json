@@ -1,25 +1,27 @@
 [
     {
         "imageurl": "assets/img/certificates/python-certification.jpg",
-        "name": "Python Certification"
+        "name": "Python Certification",
+        "url": "https://drive.google.com/file/d/1-hcQqRIMqmccpRmUPNrmvbpceNgrKje0/view?usp=share_link"
     },
     {
         "imageurl": "assets/img/certificates/linux-certification.jpg",
-        "name": "Linux Certification"
+        "name": "Linux Certification",
+        "url": "https://drive.google.com/file/d/15i8w4DoxU4yOsLeb29V93EoczdbhJkOk/view?usp=share_link"
     },
     {
         "imageurl": "assets/img/certificates/git-certification.jpg",
         "name": "Git Certification",
-        "url": ""
+        "url": "https://drive.google.com/file/d/1ZsnVCZNfaZ9Q0HC-ncTUfSNrIBZ7Oi4A/view?usp=share_link"
     },
     {
         "imageurl": "assets/img/certificates/DataScienceTraining-certification.jpg",
         "name": "DataScience-Training Certification",
-        "url": ""
+        "url": "https://drive.google.com/file/d/1XM1ZWqW1Pp8uhIKjNXWsa-s1eYMSZCEh/view?usp=share_link"
     },
     {
         "imageurl": "assets/img/certificates/ccds-certification.jpg",
         "name": "Cloud Computing Certification",
-        "url": ""
+        "url": "https://drive.google.com/file/d/1FetK4d5SdWuI35gHjQuEjhwnsbznVMfh/view?usp=share_link"
     }
 ]

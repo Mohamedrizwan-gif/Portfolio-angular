@@ -1,1 +1,18 @@
-<app-certification></app-certification>
+<mat-sidenav-container class="container">
+    <mat-sidenav #sidenav>
+        <app-sidenav [sidenav]="sidenav"></app-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <header>
+            <app-header [sidenav]="sidenav"></app-header>
+        </header>
+        <br />
+        <section id="certificates">
+            <app-certification></app-certification>
+        </section>
+        <br />
+        <footer id="contact">
+            <app-contact></app-contact>
+        </footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>
