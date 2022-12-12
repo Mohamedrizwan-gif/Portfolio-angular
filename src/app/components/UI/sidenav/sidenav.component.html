@@ -1,0 +1,45 @@
+<nav>
+    <header>
+        <div>
+            <button class="icon-button" mat-mini-fab>
+                <img class="icon-img" src="assets/icon/linkedin.png" />
+            </button>
+            <button class="icon-button" mat-mini-fab>
+                <img class="icon-img" src="assets/icon/github.png" />
+            </button>
+            <button class="icon-button" mat-mini-fab>
+                <img class="icon-img" src="assets/icon/twitter.png" />
+            </button>
+        </div>
+        <button style="background-color: cadetblue;" mat-fab (click)="sidenav.close()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </header>
+    <section>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <mat-divider></mat-divider>
+            <a href="#about">
+                <li>About</li>
+            </a>
+            <mat-divider></mat-divider>
+            <a href="#certificates">
+                <li>Certificates</li>
+            </a>
+            <mat-divider></mat-divider>
+            <a href="#achievements">
+                <li>Achievements</li>
+            </a>
+            <mat-divider></mat-divider>
+            <a href="#works">
+                <li>Works</li>
+            </a>
+            <mat-divider></mat-divider>
+            <a class="git-btn" href="#contact" color="primary" mat-raised-button>
+                Get in Touch
+            </a>
+        </ul>
+    </section>
+</nav>

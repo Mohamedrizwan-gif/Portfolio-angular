@@ -23,5 +23,15 @@
         "imageurl": "assets/img/certificates/ccds-certification.jpg",
         "name": "Cloud Computing Certification",
         "url": "https://drive.google.com/file/d/1FetK4d5SdWuI35gHjQuEjhwnsbznVMfh/view?usp=share_link"
+    },
+    {
+        "imageurl": "assets/img/certificates/angular-certification.jpg",
+        "name": "Angular Certification",
+        "url": "https://www.udemy.com/certificate/UC-68c4c69e-756a-4d95-9196-1aa26f2e90e1"
+    },
+    {
+        "imageurl": "assets/img/certificates/nodejs-certification.jpg",
+        "name": "Nodejs Certification",
+        "url": "https://www.udemy.com/certificate/UC-bb352e7f-e2d5-4f08-bf09-a3a35e9cb5ba/"
     }
 ]

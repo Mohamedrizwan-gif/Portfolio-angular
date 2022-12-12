@@ -1,0 +1,54 @@
+nav {
+    margin: 5px;
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .icon-button {
+        margin: 1px;
+        background-color: aliceblue;
+
+        .icon-img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        a {
+            color: black;
+            text-decoration: none;
+
+            .active {
+                color: #056366;
+                font-size: 18px;
+            }
+
+            &:hover {
+                color: brown;
+                font-size: 18px;
+            }
+
+            li {
+                margin-top: 25px;
+            }
+        }
+
+        .git-btn {
+            color: aliceblue;
+            margin-top: 35px;
+            width: 100%;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
