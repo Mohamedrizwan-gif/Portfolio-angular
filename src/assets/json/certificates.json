@@ -6,32 +6,26 @@
     },
     {
         "imageurl": "assets/img/certificates/linux-certification.jpg",
-        "name": "Linux Certification",
-        "url": "https://drive.google.com/file/d/15i8w4DoxU4yOsLeb29V93EoczdbhJkOk/view?usp=share_link"
+        "name": "Linux Certification"
     },
     {
         "imageurl": "assets/img/certificates/git-certification.jpg",
-        "name": "Git Certification",
-        "url": "https://drive.google.com/file/d/1ZsnVCZNfaZ9Q0HC-ncTUfSNrIBZ7Oi4A/view?usp=share_link"
+        "name": "Git Certification"
     },
     {
         "imageurl": "assets/img/certificates/DataScienceTraining-certification.jpg",
-        "name": "DataScience-Training Certification",
-        "url": "https://drive.google.com/file/d/1XM1ZWqW1Pp8uhIKjNXWsa-s1eYMSZCEh/view?usp=share_link"
+        "name": "DataScience-Training Certification"
     },
     {
         "imageurl": "assets/img/certificates/ccds-certification.jpg",
-        "name": "Cloud Computing Certification",
-        "url": "https://drive.google.com/file/d/1FetK4d5SdWuI35gHjQuEjhwnsbznVMfh/view?usp=share_link"
+        "name": "Cloud Computing Certification"
     },
     {
         "imageurl": "assets/img/certificates/angular-certification.jpg",
-        "name": "Angular Certification",
-        "url": "https://www.udemy.com/certificate/UC-68c4c69e-756a-4d95-9196-1aa26f2e90e1"
+        "name": "Angular Certification"
     },
     {
         "imageurl": "assets/img/certificates/nodejs-certification.jpg",
-        "name": "Nodejs Certification",
-        "url": "https://www.udemy.com/certificate/UC-bb352e7f-e2d5-4f08-bf09-a3a35e9cb5ba/"
+        "name": "Nodejs Certification"
     }
 ]

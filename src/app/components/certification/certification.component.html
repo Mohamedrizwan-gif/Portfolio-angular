@@ -1,24 +1,16 @@
 <div class="container">
-    <div class="mat-elevation-z7" *ngIf="activecertificate">
+    <div *ngIf="activecertificate">
         <a [href]="activecertificate.imageurl" target="_blank">
-            <img 
-                class="cert-img" 
-                [src]="activecertificate.imageurl" 
-                [alt]="activecertificate.name"
-            />
+            <img class="cert-img" [src]="activecertificate.imageurl" [alt]="activecertificate.name" />
         </a>
     </div>
-</div>
-<a class="prev" (click)="changeSlides('prev')">&#10094;</a>
-<a class="next" (click)="changeSlides('next')">&#10095;</a>
-<br/>
-<div class="row">
-    <div class="column" *ngFor="let ct of certifications">
-        <img 
-            class="demo cursor" 
-            [ngClass]="{'active mat-elevation-z24': ct.name === activecertificate.name}" 
-            [src]="ct.imageurl" 
-            [alt]="ct.name" 
-            (click)="activeSlide(ct.name)"/>
+    <a class="prev" (click)="changeSlides('prev')">&#10094;</a>
+    <a class="next" (click)="changeSlides('next')">&#10095;</a>
+    <br />
+    <div class="row mat-elevation-z7">
+        <div class="column" *ngFor="let ct of certifications">
+            <img class="demo cursor" [ngClass]="{'active mat-elevation-z24': ct.name === activecertificate.name}"
+                [src]="ct.imageurl" [alt]="ct.name" (click)="activeSlide(ct.name)" />
+        </div>
     </div>
 </div>

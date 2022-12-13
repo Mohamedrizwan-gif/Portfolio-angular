@@ -1,0 +1,14 @@
+<div class="container">
+    <div *ngIf="activeachievement">
+        <a [href]="activeachievement.imageurl" target="_blank">
+            <img #achimg [src]="activeachievement.imageurl" [alt]="activeachievement.name" />
+        </a>
+    </div>
+    <a class="prev" (click)="prevSlide()">&#10094;</a>
+    <a class="next" (click)="nextSlide()">&#10095;</a>
+</div>
+<div style="text-align:center">
+    <span class="dot" [ngClass]="{'active': activeachievement.name === ac.name}" (click)="activateSlide(i)"
+        *ngFor="let ac of achievements; let i = index">
+    </span>
+</div>
