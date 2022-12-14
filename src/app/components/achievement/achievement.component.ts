@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
 
-import { Achievements } from 'src/app/interfaces/achievements.interface';
+import { Collection } from 'src/app/interfaces/collection.interface';
 
 @Component({
   selector: 'app-achievement',
@@ -10,14 +10,14 @@ import { Achievements } from 'src/app/interfaces/achievements.interface';
 })
 export class AchievementComponent implements OnInit {
   @ViewChild('achimg') achimg!: ElementRef;
-  public achievements: Array<Achievements> = [];
-  public activeachievement!: Achievements;
+  public achievements: Array<Collection> = [];
+  public activeachievement!: Collection;
 
-  constructor(public http: HttpClient, private renderer: Renderer2) { }
+  constructor(private http: HttpClient, private renderer: Renderer2) { }
 
   ngOnInit(): void {
-    this.http.get<Array<Achievements>>('assets/json/achievements.json')
-      .subscribe((data: Array<Achievements>) => {
+    this.http.get<Array<Collection>>('assets/json/achievements.json')
+      .subscribe((data: Array<Collection>) => {
         this.achievements = data;
         this.activeachievement = { ...this.achievements[0] };
       })

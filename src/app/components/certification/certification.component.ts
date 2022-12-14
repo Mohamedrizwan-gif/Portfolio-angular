@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { Certificates } from 'src/app/interfaces/certificates.interface';
+import { Collection } from 'src/app/interfaces/collection.interface';
 
 @Component({
   selector: 'app-certification',
@@ -9,14 +9,14 @@ import { Certificates } from 'src/app/interfaces/certificates.interface';
   styleUrls: ['./certification.component.scss']
 })
 export class CertificationComponent implements OnInit {
-  public certifications: Array<Certificates> = [];
-  public activecertificate!: Certificates;
+  public certifications: Array<Collection> = [];
+  public activecertificate!: Collection;
 
   constructor(public http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get<Array<Certificates>>('assets/json/certificates.json')
-      .subscribe((data: Array<Certificates>) => {
+    this.http.get<Array<Collection>>('assets/json/certificates.json')
+      .subscribe((data: Array<Collection>) => {
         this.certifications = data;
         this.activecertificate = { ...this.certifications[0] };
       })

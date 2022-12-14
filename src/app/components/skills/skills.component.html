@@ -1,1 +1,30 @@
-<p>skills works!</p>
+<div>
+    <h4>FrontEnd</h4>
+    <div class="skills">
+        <div *ngFor="let fe of frontend">
+            <img [src]="fe.imageurl" [alt]="fe.name" />
+            <h5>{{fe.name}}</h5>
+        </div>
+    </div>
+    <h4>Backend</h4>
+    <div class="skills">
+        <div *ngFor="let be of backend">
+            <img [src]="be.imageurl" [alt]="be.name" />
+            <h5>{{be.name}}</h5>
+        </div>
+    </div>
+    <h4>Others</h4>
+    <div class="skills">
+        <div *ngFor="let ot of others">
+            <ng-container *ngIf="ot.imageurl">
+                <img [src]="ot.imageurl" [alt]="ot.name" />
+                <h5>{{ot.name}}</h5>
+            </ng-container>
+            <ng-container *ngIf="ot.imageurl1">
+                <img [src]="ot.imageurl1" [alt]="ot.name" />
+                <img [src]="ot.imageurl2" [alt]="ot.name" />
+                <h5>{{ot.name}}</h5>
+            </ng-container>
+        </div>
+    </div>
+</div>

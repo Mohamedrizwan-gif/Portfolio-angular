@@ -1,0 +1,22 @@
+[
+    {
+        "name": "HTML5",
+        "imageurl": "assets/img/skills/html.png"
+    },
+    {
+        "name": "CSS3",
+        "imageurl": "assets/img/skills/css.png"
+    },
+    {
+        "name": "JavaScript",
+        "imageurl": "assets/img/skills/javascript.png"
+    },
+    {
+        "name": "Angular",
+        "imageurl": "assets/img/skills/angularjs.png"
+    },
+    {
+        "name": "React",
+        "imageurl": "assets/img/skills/reactjs.png"
+    }
+]

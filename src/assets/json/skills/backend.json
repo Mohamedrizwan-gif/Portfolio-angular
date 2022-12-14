@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Node.js",
+        "imageurl": "assets/img/skills/nodejs.png"
+    },
+    {
+        "name": "Express.js",
+        "imageurl": "assets/img/skills/express.png"
+    },
+    {
+        "name": "MongoDB",
+        "imageurl": "assets/img/skills/mongodb.png"
+    }
+]
