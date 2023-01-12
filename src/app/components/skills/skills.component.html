@@ -1,19 +1,19 @@
 <div>
-    <h4>FrontEnd</h4>
+    <h3>FrontEnd</h3>
     <div class="skills">
         <div *ngFor="let fe of frontend">
             <img [src]="fe.imageurl" [alt]="fe.name" />
             <h5>{{fe.name}}</h5>
         </div>
     </div>
-    <h4>Backend</h4>
+    <h3>BackEnd</h3>
     <div class="skills">
         <div *ngFor="let be of backend">
             <img [src]="be.imageurl" [alt]="be.name" />
             <h5>{{be.name}}</h5>
         </div>
     </div>
-    <h4>Others</h4>
+    <h3>Others</h3>
     <div class="skills">
         <div *ngFor="let ot of others">
             <ng-container *ngIf="ot.imageurl">
@@ -26,6 +26,7 @@
                 <h5>{{ot.name}}</h5>
             </ng-container>
         </div>
-        <button mat-fab color="primary" routerLink="/">Data Science</button>
+        <h5>Data Science</h5>
     </div>
+    <Button routerLink="/projects" mat-button>Projects</Button>
 </div>

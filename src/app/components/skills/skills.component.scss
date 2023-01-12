@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 1rem;
+    text-decoration: underline;
+}
+
 .skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
     div {
         margin: 0 25px;
@@ -12,4 +22,8 @@
             height: 50px;
         }
     }
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
 }
