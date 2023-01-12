@@ -17,27 +17,27 @@
     </header>
     <section>
         <ul>
-            <a href="#">
+            <a (click)="onScrollpage('head', $event)">
                 <li>Home</li>
             </a>
             <mat-divider></mat-divider>
-            <a href="#about">
+            <a (click)="onScrollpage('about', $event)">
                 <li>About</li>
             </a>
             <mat-divider></mat-divider>
-            <a href="#certificates">
+            <a (click)="onScrollpage('certificates', $event)">
                 <li>Certificates</li>
             </a>
             <mat-divider></mat-divider>
-            <a href="#achievements">
+            <a (click)="onScrollpage('achievements', $event)">
                 <li>Achievements</li>
             </a>
             <mat-divider></mat-divider>
-            <a href="#works">
+            <a (click)="onScrollpage('works', $event)">
                 <li>Works</li>
             </a>
             <mat-divider></mat-divider>
-            <a class="git-btn" href="#contact" color="primary" mat-raised-button>
+            <a class="git-btn" (click)="onScrollpage('contact', $event)" color="primary" mat-raised-button>
                 Get in Touch
             </a>
         </ul>

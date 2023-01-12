@@ -1,0 +1,45 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav #sidenav>
+        <app-sidenav 
+            [head]="head"
+            [about]="about"
+            [skills]="skills"
+            [certificates]="certificates"
+            [achievements]="achievements"
+            [contact]="contact"
+            [sidenav]="sidenav">
+        </app-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <header>
+            <app-header [sidenav]="sidenav"></app-header>
+        </header>
+        <br />
+        <section #head>
+            <app-head></app-head>
+        </section>
+        <section #about>
+            <h1>About</h1>
+            <app-about></app-about>
+        </section>
+        <section #skills>
+            <h1>Skills</h1>
+            <app-skills></app-skills>
+        </section>
+        <section #certificates>
+            <h1>Certification</h1>
+            <app-certification></app-certification>
+        </section>
+        <br />
+        <section #achievements>
+            <h1>Achievements</h1>
+            <app-achievement></app-achievement>
+        </section>
+        <br />
+        <section #contact>
+            <h1>Contact</h1>
+            <app-contact></app-contact>
+        </section>
+        <br />
+    </mat-sidenav-content>
+</mat-sidenav-container>
