@@ -3,9 +3,5 @@
         "name": "Git & Github",
         "imageurl1": "assets/img/skills/git.png",
         "imageurl2": "assets/img/skills/github.png"
-    },
-    {
-        "name": "Python",
-        "imageurl": "assets/img/skills/python.png"
     }
 ]

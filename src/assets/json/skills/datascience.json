@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Python",
+        "imageurl": "assets/img/skills/python.png"
+    },
+    {
+        "name": "Pandas",
+        "imageurl": "assets/img/skills/pandas.png"
+    },
+    {
+        "name": "sklearn",
+        "imageurl": "assets/img/skills/sklearn.png"
+    }
+]

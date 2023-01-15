@@ -12,6 +12,7 @@ export class SkillsComponent implements OnInit {
   public frontend!: Array<Collection>;
   public backend!: Array<Collection>;
   public others!: Array<Collection>;
+  public datascience!: Array<Collection>;
 
   constructor(private http: HttpClient) { }
 
@@ -27,6 +28,10 @@ export class SkillsComponent implements OnInit {
     this.http.get<Array<Collection>>('assets/json/skills/others.json')
       .subscribe((data: Array<Collection>) => {
         this.others = data;
+      })
+    this.http.get<Array<Collection>>('assets/json/skills/datascience.json')
+      .subscribe((data: Array<Collection>) => {
+        this.datascience = data;
       })
   }
 }

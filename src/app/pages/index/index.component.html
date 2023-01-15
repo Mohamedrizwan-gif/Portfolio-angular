@@ -15,34 +15,28 @@
             <app-header [sidenav]="sidenav"></app-header>
         </header>
         <br />
-        <section #head>
-            <app-head></app-head>
-        </section>
-        <br/>
-        <section #about>
-            <h1>About</h1>
+        <section style="margin-bottom: 13rem;" #head>
+            <app-head [contact]="contact"></app-head>
+        </section>      
+        <section style="margin-bottom: 13rem;" #about>
+            <h1>About Me</h1>
             <app-about></app-about>
         </section>
-        <br/>
-        <section #skills>
+        <section style="margin-bottom: 13rem;" #skills>
             <h1>Skills</h1>
             <app-skills></app-skills>
         </section>
-        <br/>
-        <section #certificates>
+        <section style="margin-bottom: 13rem;" #certificates>
             <h1>Certification</h1>
             <app-certification></app-certification>
         </section>
-        <br />
-        <section #achievements>
+        <section style="margin-bottom: 13rem;" #achievements>
             <h1>Achievements</h1>
             <app-achievement></app-achievement>
         </section>
-        <br />
-        <section #contact>
+        <section style="margin-bottom: 8rem;" #contact>
             <h1>Contact</h1>
             <app-contact></app-contact>
         </section>
-        <br />
     </mat-sidenav-content>
 </mat-sidenav-container>

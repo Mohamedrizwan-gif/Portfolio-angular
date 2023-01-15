@@ -1,0 +1,41 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    h2 {
+        color: slategray;
+        text-decoration: underline wavy;
+    }
+
+    p {
+        font-family: 'Sofia Sans', sans-serif;
+        margin: 0 5px;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.7);
+        line-height: 1.9;
+    }
+}
+
+@media (min-width: 429px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .content {
+        p {
+            margin: 0;
+        }
+    }
+}

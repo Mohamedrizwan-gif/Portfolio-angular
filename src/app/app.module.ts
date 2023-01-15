@@ -4,17 +4,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from './components/index-layout/header/header.component';
 import { SidenavComponent } from './components/UI/sidenav/sidenav.component';
-import { CertificationComponent } from './components/certification/certification.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { AchievementComponent } from './components/achievement/achievement.component';
-import { SkillsComponent } from './components/skills/skills.component';
-import { AboutComponent } from './components/about/about.component';
+import { CertificationComponent } from './components/index-layout/certification/certification.component';
+import { ContactComponent } from './components/index-layout/contact/contact.component';
+import { AchievementComponent } from './components/index-layout/achievement/achievement.component';
+import { SkillsComponent } from './components/index-layout/skills/skills.component';
+import { AboutComponent } from './components/index-layout/about/about.component';
 import { AppRoutingModule } from './modules/app-routing.module';
 import { MaterialModule } from './modules/material.module';
 import { IndexComponent } from './pages/index/index.component';
-import { HeadComponent } from './components/head/head.component';
+import { HeadComponent } from './components/index-layout/head/head.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { ProjectHeaderComponent } from './components/projects-layout/header/header.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { HeadComponent } from './components/head/head.component';
     ContactComponent,
     AchievementComponent,
     SkillsComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectsComponent,
+    ProjectHeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,11 @@ h3 {
     text-decoration: underline;
 }
 
+.imgfit {
+    width: 95px !important;
+    object-fit: contain;
+}
+
 .skills {
     display: flex;
     flex-direction: row;
@@ -22,8 +27,15 @@ h3 {
             height: 50px;
         }
     }
+
+    h5 {
+        font-family: 'Raleway', sans-serif;
+    }
 }
 
-h5 {
-    font-family: 'Raleway', sans-serif;
+button {
+    display: block;
+    width: 95%;
+    background-color: slategray !important;
+    margin: auto;
 }

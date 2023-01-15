@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 5px;
+}
+
+img {
+    width: 210px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+@media (min-width: 426px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .content {
+        margin: 0;
+    }
+}
