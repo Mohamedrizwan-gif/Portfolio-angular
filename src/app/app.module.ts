@@ -17,21 +17,25 @@ import { IndexComponent } from './pages/index/index.component';
 import { HeadComponent } from './components/index-layout/head/head.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectHeaderComponent } from './components/projects-layout/header/header.component';
+import { DataScienceComponent } from './components/projects-layout/datascience/datascience.component';
+import { FullStackComponent } from './components/projects-layout/fullstack/fullstack.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     HeaderComponent,
-    HeadComponent,
-    CertificationComponent,
     SidenavComponent,
-    ContactComponent,
+    HeadComponent,
+    AboutComponent,
+    CertificationComponent,
     AchievementComponent,
     SkillsComponent,
-    AboutComponent,
+    ContactComponent,
     ProjectsComponent,
-    ProjectHeaderComponent
+    ProjectHeaderComponent,
+    FullStackComponent,
+    DataScienceComponent
   ],
   imports: [
     BrowserModule,

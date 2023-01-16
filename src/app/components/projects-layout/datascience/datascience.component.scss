@@ -1,0 +1,22 @@
+.fs-ms {
+    font-family: 'Montserrat', sans-serif
+}
+
+.content {
+    font-family: "Sofia Sans", sans-serif;
+    font-size: 20px;
+}
+
+img {
+    object-fit: contain;
+    width: 100px !important;
+    height: auto;
+}
+
+ul {
+    list-style: circle;
+
+    a {
+        vertical-align: middle;
+    }
+}

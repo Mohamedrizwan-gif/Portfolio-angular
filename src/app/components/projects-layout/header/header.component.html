@@ -1,2 +1,6 @@
-<button mat-raised-button>Full stack</button>
-<button mat-raised-button>Data science</button>
+<button [ngClass]="{'pos-top': fsclicked}" (click)="onNavigate('fullstack')" mat-stroked-button>
+    Full stack
+</button>
+<button [ngClass]="{'pos-top': dsclicked}" (click)="onNavigate('datascience')" mat-stroked-button>
+    Data science
+</button>

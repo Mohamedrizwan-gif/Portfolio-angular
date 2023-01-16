@@ -1,0 +1,36 @@
+<div style="margin: 5px 2px;" class="mat-elevation-z9">
+    <div class="content">
+        I have interested in lot of new development and technologies that lead me to start my career in
+        data science and iam learned about the following exciting technologies like,
+    </div>
+    <mat-list>
+        <mat-list-item *ngFor="let ds of datascience">
+            <img [src]="ds.imageurl" [alt]="ds.name" matListItemIcon />
+            <div class="fs-ms">{{ds.name}}</div>
+        </mat-list-item>
+    </mat-list>
+    <div class="content">
+        Here you can view my projects through github and the link is also embedded.
+    </div>
+</div>
+<mat-card>
+    <mat-card-header>
+        <div class="fs-ms">I have divided my projects into two branches</div>
+    </mat-card-header>
+    <mat-card-content>
+        <ul class="fs-ms">
+            <li>
+                <span>ML</span>
+                <a href="https://github.com/Mohamedrizwan-gif/data-science/tree/ML" target="_blank">
+                    <mat-icon color="primary">link</mat-icon>
+                </a>
+            </li>
+            <li>
+                <span>projects</span>
+                <a href="https://github.com/Mohamedrizwan-gif/data-science/tree/projects" target="_blank">
+                    <mat-icon color="primary">link</mat-icon>
+                </a>
+            </li>
+        </ul>
+    </mat-card-content>
+</mat-card>

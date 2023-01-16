@@ -10,5 +10,9 @@
     {
         "name": "sklearn",
         "imageurl": "assets/img/skills/sklearn.png"
+    }, 
+    {
+        "name": "Beautiful Soup",
+        "imageurl": "assets/img/skills/beautifulsoup.jpg"
     }
 ]

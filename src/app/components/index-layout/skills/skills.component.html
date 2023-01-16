@@ -31,7 +31,7 @@
     <div class="skills">
         <div *ngFor="let ds of datascience">
             <ng-container *ngIf="ds.imageurl">
-                <img [ngClass]="{'imgfit' : ds.name === 'Pandas' || ds.name === 'sklearn'}" [src]="ds.imageurl"
+                <img class="imgfit" [src]="ds.imageurl"
                     [alt]="ds.name" />
                 <h5>{{ds.name}}</h5>
             </ng-container>

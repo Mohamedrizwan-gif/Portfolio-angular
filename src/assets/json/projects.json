@@ -1,25 +1,25 @@
 [
     {
         "name": "CRUD Application",
-        "platform": "nodejs",
+        "platform": "Node.js",
         "site_url": "https://crud-app-zdg1.onrender.com",
         "src_url": "https://github.com/Mohamedrizwan-gif/crud_app-node.js-"
     },
     {
         "name": "Vdgamedb",
-        "platform": "angular",
+        "platform": "Angular",
         "site_url": "https://vdgamedb.netlify.app/",
         "src_url": "https://github.com/Mohamedrizwan-gif/videogamedb"
     },
     {
         "name": "Eathenaeum",
-        "platform": "nodejs",
+        "platform": "Node.js",
         "site_url": "https://eathenaeum.onrender.com",
         "src_url": "https://github.com/Mohamedrizwan-gif/eathenaeum-node.js-"
     },
     {
         "name": "Porfolio",
-        "platform": "Reactjs",
+        "platform": "React",
         "site_url": "https://mohamedrizwan.netlify.app/",
         "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio"
     },
