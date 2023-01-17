@@ -1,3 +1,16 @@
-<mat-card>
-    
-</mat-card>
+<div 
+    class="card" 
+    [attr.data-aos]="(i+1)%2 === 0 ? 'zoom-in-left' : 'zoom-in-right'" 
+    data-aos-duration="1200" 
+    *ngFor="let fs of fullstack;let i=index">
+    <mat-card>
+        <img mat-card-image [src]="fs.image_url" [alt]="fs.name" />
+        <mat-card-header class="content">
+            {{fs.name}}
+        </mat-card-header>
+        <mat-card-actions style="justify-content: space-around;">
+            <a [href]="fs.src_url" target="_blank" color="primary" mat-stroked-button>SOURCE CODE</a>
+            <a [href]="fs.site_url" target="_blank" color="primary" mat-stroked-button>WEBPAGE</a>
+        </mat-card-actions>
+    </mat-card>
+</div>

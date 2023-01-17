@@ -12,7 +12,6 @@ export class ProjectHeaderComponent {
     public dsclicked = false;
 
     onNavigate(navigate: string): void {
-        console.log(this.fullstack)
         if (navigate === 'fullstack') {
             this.fullstack.scrollIntoView({ behavior: 'smooth' });
             this.fsclicked = true;

@@ -1,31 +1,36 @@
 [
     {
+        "name": "Porfolio",
+        "platform": "React",
+        "image_url": "assets/img/projects/portfolio.png",
+        "site_url": "https://mohamedrizwan.netlify.app/",
+        "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio"
+    },
+    {
         "name": "CRUD Application",
         "platform": "Node.js",
+        "image_url": "assets/img/projects/crudapp.png",
         "site_url": "https://crud-app-zdg1.onrender.com",
         "src_url": "https://github.com/Mohamedrizwan-gif/crud_app-node.js-"
     },
     {
         "name": "Vdgamedb",
         "platform": "Angular",
+        "image_url": "assets/img/projects/videogamedb.png",
         "site_url": "https://vdgamedb.netlify.app/",
         "src_url": "https://github.com/Mohamedrizwan-gif/videogamedb"
     },
     {
         "name": "Eathenaeum",
         "platform": "Node.js",
+        "image_url": "assets/img/projects/eathenaeum.png",
         "site_url": "https://eathenaeum.onrender.com",
         "src_url": "https://github.com/Mohamedrizwan-gif/eathenaeum-node.js-"
     },
     {
-        "name": "Porfolio",
-        "platform": "React",
-        "site_url": "https://mohamedrizwan.netlify.app/",
-        "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio"
-    },
-    {
         "name": "CovidTracker",
         "platform": "Angular",
+        "image_url": "assets/img/projects/eathenaeum.png",
         "site_url": "https://covid-track-19.netlify.app/",
         "src_url": "https://github.com/Mohamedrizwan-gif/Covid-tracker"
     }
