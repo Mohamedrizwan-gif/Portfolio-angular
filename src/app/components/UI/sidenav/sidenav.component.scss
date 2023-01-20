@@ -53,3 +53,15 @@ nav {
         }
     }
 }
+
+.contact {
+    text-align: center;
+
+    a:first-child {
+        border-color: cadetblue;
+        border-width: 2px;
+    }
+    a {
+        width: 100%;
+    }
+}

@@ -1,15 +1,15 @@
 <nav>
     <header>
         <div>
-            <button class="icon-button" mat-mini-fab>
+            <a href="https://www.linkedin.com/in/mohamed2000/" target="_blank" class="icon-button" mat-mini-fab>
                 <img class="icon-img" src="assets/icon/linkedin.png" />
-            </button>
-            <button class="icon-button" mat-mini-fab>
+            </a>
+            <a href="https://github.com/Mohamedrizwan-gif" target="_blank" class="icon-button" mat-mini-fab>
                 <img class="icon-img" src="assets/icon/github.png" />
-            </button>
-            <button class="icon-button" mat-mini-fab>
+            </a>
+            <a href="https://twitter.com/MohamedRizwanM4" target="_blank" class="icon-button" mat-mini-fab>
                 <img class="icon-img" src="assets/icon/twitter.png" />
-            </button>
+            </a>
         </div>
         <button style="background-color: cadetblue;" mat-fab (click)="sidenav.close()">
             <mat-icon>close</mat-icon>
@@ -37,9 +37,18 @@
                 <li>Works</li>
             </a>
             <mat-divider></mat-divider>
-            <a class="git-btn" (click)="onScrollpage('contact', $event)" color="primary" mat-raised-button>
-                Get in Touch
-            </a>
         </ul>
+        <br/>
+        <div class="contact">
+            <div>
+                <a href="tel:+918825801986" mat-stroked-button>Contact Me</a>
+            </div>
+            <br/>
+            <div>
+                <a class="git-btn" (click)="onScrollpage('contact', $event)" color="primary" mat-raised-button>
+                    Get in Touch
+                </a>
+            </div>
+        </div>
     </section>
 </nav>

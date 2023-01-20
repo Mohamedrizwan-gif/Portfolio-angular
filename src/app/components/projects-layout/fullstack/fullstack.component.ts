@@ -11,7 +11,7 @@ export class FullStackComponent implements OnInit {
     constructor(private http: HttpClient) { }
 
     ngOnInit(): void {
-        this.http.get('assets/json/projects.json')
+       this.http.get('assets/json/projects.json')
             .subscribe(data => {
                 this.fullstack = data;
             })

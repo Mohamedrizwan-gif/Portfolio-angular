@@ -1,13 +1,7 @@
 <mat-sidenav-container class="container">
     <mat-sidenav #sidenav>
-        <app-sidenav 
-            [head]="head"
-            [about]="about"
-            [skills]="skills"
-            [certificates]="certificates"
-            [achievements]="achievements"
-            [contact]="contact"
-            [sidenav]="sidenav">
+        <app-sidenav [head]="head" [about]="about" [skills]="skills" [certificates]="certificates"
+            [achievements]="achievements" [contact]="contact" [sidenav]="sidenav">
         </app-sidenav>
     </mat-sidenav>
     <mat-sidenav-content>
@@ -17,24 +11,26 @@
         <br />
         <section style="margin-bottom: 13rem;" #head>
             <app-head [contact]="contact"></app-head>
-        </section>      
-        <section style="margin-bottom: 13rem;" #about>
-            <h1>About Me</h1>
-            <app-about></app-about>
         </section>
-        <section style="margin-bottom: 13rem;" #skills>
+        <section data-aos="fade-down" data-aos-duration="1200" style="margin-bottom: 13rem;" #about>
+            <h1>About Me</h1>
+            <div>
+                <app-about></app-about>
+            </div>
+        </section>
+        <section data-aos="fade-down" data-aos-duration="1200" style="margin-bottom: 13rem;" #skills>
             <h1>Skills</h1>
             <app-skills></app-skills>
         </section>
-        <section style="margin-bottom: 13rem;" #certificates>
+        <section data-aos="fade-down" data-aos-duration="1200" style="margin-bottom: 13rem;" #certificates>
             <h1>Certification</h1>
             <app-certification></app-certification>
         </section>
-        <section style="margin-bottom: 13rem;" #achievements>
+        <section data-aos="fade-down" data-aos-duration="1200" style="margin-bottom: 13rem;" #achievements>
             <h1>Achievements</h1>
             <app-achievement></app-achievement>
         </section>
-        <section style="margin-bottom: 8rem;" #contact>
+        <section data-aos="fade-down" data-aos-duration="1200" style="margin-bottom: 8rem;" #contact>
             <h1>Contact</h1>
             <app-contact></app-contact>
         </section>
