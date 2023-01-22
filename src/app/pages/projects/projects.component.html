@@ -1,12 +1,11 @@
-<section>
-    <app-project-header [fullstack]="fullstack" [datascience]="datascience">
-    </app-project-header>
-</section>
-<br />
-<section #datascience>
-    <app-datascience></app-datascience>
-</section>
-<br />
-<section #fullstack>
-    <app-fullstack></app-fullstack>
-</section>
+<div style="background-color: aliceblue;">
+    <app-project-header [fullstack]="fullstack" [datascience]="datascience"></app-project-header>
+    <br />
+    <section #datascience>
+        <app-datascience></app-datascience>
+    </section>
+    <br />
+    <section #fullstack>
+        <app-fullstack></app-fullstack>
+    </section>
+</div>

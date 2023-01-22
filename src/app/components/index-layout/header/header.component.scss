@@ -1,6 +1,8 @@
 mat-toolbar {
+    position: fixed;
     background-color: #3f9295;
     color: white;
+    z-index: 3;
 
     button {
         margin-left: auto;
